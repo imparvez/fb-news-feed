@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Update Status</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				<textarea  name="" id="textArea" cols="30" rows="10"></textarea>
+				<div class="image-container">
+					<img onclick="imageSelector(this)" data-image="info" src="https://in.bmscdn.com/webin/static/amp/info.png" width="25px" height="25px" alt="">
+					<img onclick="imageSelector(this)" data-image="live" src="https://in.bmscdn.com/webin/static/amp/live.png" width="25px" height="25px" alt="">
+					<img onclick="imageSelector(this)" data-image="sports" src="https://in.bmscdn.com/webin/static/amp/sports.png" width="25px" height="25px" alt="">
+				</div>
+				<button onclick="updateText()">Update Status</button>
+			</div>
+			<div class="col-sm-12">
+				<ul id="lists" class="list-group">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
